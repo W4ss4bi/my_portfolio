@@ -1,0 +1,471 @@
+﻿.menu-main {
+    list-style: none;
+    margin: 30px 0 0px;
+    text-align: center;
+    background: transparent;
+  }
+  .menu-main li {display: inline-block;}
+  
+
+
+
+  .menu-main li:last-child:after {content: none;}
+  .menu-main a {
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 34px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+  }
+  .menu-main a, .menu-main a:visited {color: #ffffff;}
+  .menu-main a.current, .menu-main a:hover{color: #8F00FF;}
+  .menu-main a:before,
+  .menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: 10px;
+    left: 50%;
+    background: #8F00FF;
+    transition: .4s;
+  }
+  .menu-main a:hover:before, .menu-main .current:before {left: 0;}
+  .menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+
+
+.background {
+    width: 1300px;
+    height: auto;
+    transform: rotate(-0.2deg);
+    filter: blur(2px);
+}
+
+.first {
+    margin-top: -310px;
+    margin-left: -375px;
+}
+
+.second {
+    position: relative;
+    z-index: 2;
+    margin-top: -780px;
+    margin-left: 250px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  }
+
+.tekst_sverhu_kartinki {
+    color: white;
+    font: bold 74px/100px Helvetica, Sans-Serif;
+    margin-top: -250px; 
+    
+}
+
+.third {
+    position: relative;
+    z-index: 1;
+    margin-top: -310px;
+}
+
+.fourth {
+    position: relative;
+    z-index: 1;
+}
+
+.fifth {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font: normal 26px/100px Helvetica, Sans-Serif;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.button {
+    /* Сбрасываем дефолтные стили */
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    /* Можно также использовать любые встроенные и кастомные шрифты, например, отсюда  */
+    font: bold 26px/30px Helvetica, Sans-Serif;
+    /* Тут можно поэкспериментировать */
+    padding: 20px 40px;
+    border-radius: 100px;
+    color: #fff;
+  }
+  .button.blue {
+    background: #8F00FF;
+  }
+  .button:hover.blue {
+    background: #58009b;
+  }
+  .button:active.blue {
+    background: #7000c5;
+  }
+  
+  .knopka {
+    margin: 24px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: -10px;
+  }
+
+
+  .marquee-container{
+    display: flex;
+    align-items: center;
+    background: none;
+    overflow: hidden;
+    margin-top: -35px;
+}
+
+.marquee{
+  font-size: 27px;
+  line-height: 1.3;
+  font-family: sans-serif;
+  padding: 24px 0;
+  color: #fff;
+  white-space: nowrap;
+  animation: marquee 5s infinite linear;
+  font: 26px/30px Helvetica, Sans-Serif;
+}
+
+.marquee:after{
+  content: "let's create something interesting   let's create something interesting    let's create something interesting    let's create something interesting    ";
+}
+
+@keyframes marquee{
+  0% {
+      transform: translateX(0)
+  }
+  100% {
+      transform: translateX(-50%)
+  }
+}
+
+.sixth {
+  position: relative;
+  z-index: 1;
+  margin-top: 200px;
+}
+
+.seventh {
+  position: relative;
+  z-index: 1;
+  margin-top: -40px;
+}
+
+.eighth {
+  margin-top: -170px;
+  margin-left: 1060px;
+}
+
+.background1 {
+  width: 450px;
+  height: auto;
+}
+
+.ninth {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font: bold 50px/100px Helvetica, Sans-Serif;
+  margin-top: -330px;
+  margin-left: 250px;
+}
+
+.ya {
+  position: relative;
+  z-index: 1;
+  width: 400px;
+  height: auto;
+}
+
+.tenth {
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.eleventh {
+  position: relative;
+  z-index: 1;
+  width: 500px;
+  height: 175px;
+  margin-top: -170px;
+  margin-left: 710px;
+}
+
+.tekst {
+  color: white;
+  font: bold 24px/35px Helvetica, Sans-Serif;
+}
+
+.twelth {
+  margin-top: -250px;
+  margin-left: -170px;
+}
+
+.background2 {
+  width: 380px;
+  height: auto;
+}
+
+
+
+.icon1 {
+  width: 35px;
+  height: auto;
+}
+
+.fourteenth {
+  position: relative;
+  z-index: 1;
+  margin-top: -380px;
+  margin-left: 710px;
+}
+
+.fifteenth {
+  position: relative;
+  z-index: 1;
+  margin-top: -40px;
+  margin-left: 770px;
+}
+
+.icon2 {
+  width: 37px;
+  height: auto;
+}
+
+.sixteenth {
+  position: relative;
+  z-index: 1;
+  margin-top: -40px;
+  margin-left: 830px;
+}
+
+.icon3 {
+  width: 35px;
+  height: auto;
+}
+
+.thirteenth {
+  position: relative;
+  z-index: 1;
+  margin-top: 330px;
+}
+
+.seventeenth {
+  margin-top: -180px;
+  margin-left: 850px;
+}
+
+.background3 {
+  width: 380px;
+  height: auto;
+}
+
+.eighteenth {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font: bold 50px/100px Helvetica, Sans-Serif;
+  margin-top: -160px;
+  margin-left: 250px;
+}
+
+.ninteenth {
+  position: relative;
+  z-index: 1;
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+.twentieth {
+  position: relative;
+  z-index: 1;
+  margin-top: 70px;
+}
+
+.the_twentieth_first {
+  margin-top: -115px;
+  margin-left: -300px;
+}
+
+.background4 {
+  width: 630px;
+  height: auto;
+}
+
+.the_twentieth_second {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font: bold 50px/100px Helvetica, Sans-Serif;
+  margin-top: -460px;
+  margin-left: 250px;
+}
+
+#rectangle {
+  position: relative;
+  z-index: 1;
+  width: 340px;
+  height: 250px;
+  background: #D9D9D9;
+  margin-top: -300px;
+  margin-left: 320px;
+}
+#rectangle1 {
+  position: relative;
+  z-index: 1;
+  width: 480px;
+  height: 350px;
+  background: none;
+  border: 1px solid #D9D9D9;
+  margin-top: 20px;
+  margin-left: 250px;
+}
+#rectangle2 {
+  position: relative;
+  z-index: 1;
+  width: 330px;
+  height: 24px;
+  background: #D9D9D9;
+  margin-top: 100px;
+  margin-left: 250px;
+}
+#rectangle3 {
+  position: relative;
+  z-index: 1;
+  width: 220px;
+  height: 24px;
+  background: #D9D9D9;
+  margin-top: 20px;
+  margin-left: 250px;
+}
+
+.rar {
+  margin-top: -490px;
+  margin-left: 525px;
+}
+.rar1 {
+  margin-top: 65px;
+  margin-left: 0px;
+}
+.rar2 {
+  margin-top: -490px;
+  margin-left: 525px;
+}
+
+
+.background5 {
+  width: 510px;
+  height: auto;
+  transform: scale(-1, 1);
+}
+
+.the_twentieth_third {
+  margin-top: -50px;
+  margin-left: 1001px;
+}
+
+.the_twentieth_fourth {
+  position: relative;
+  z-index: 1;
+  margin-top: -360px;
+}
+
+.the_twentieth_fifth {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font: bold 90px/90px Helvetica, Sans-Serif;
+  margin-top: 80px;
+  margin-left: 300px;
+}
+
+.the_twentieth_sixth {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font: normal 33px/0px Helvetica, Sans-Serif;
+  margin-top: 80px;
+  margin-left: 335px;
+}
+
+.the_twentieth_seventh {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font: normal 33px/0px Helvetica, Sans-Serif;
+  margin-top: 3px;
+  margin-left: 840px;
+}
+
+.the_twentieth_eighth {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font: lighter 21px/0px Helvetica, Sans-Serif;
+  margin-top: 70px;
+  margin-left: 250px;
+}
+
+.the_twentieth_ninth {
+  position: relative;
+  z-index: 1;
+  margin-top: 40px;
+}
+
+.thirtieth {
+  position: relative;
+  z-index: 1;
+  margin-top: -25px;
+  margin-left: 1100px;
+}
+
+.marquee-container1{
+  display: flex;
+  align-items: center;
+  background: none;
+  overflow: hidden;
+  margin-top: -35px;
+  margin-bottom: -2em;
+}
+
+.marquee1{
+line-height: 1.3;
+font-family: sans-serif;
+padding: 24px 0;
+color: #fff;
+white-space: nowrap;
+animation: marquee 5s infinite linear;
+font: 26px/30px Helvetica, Sans-Serif;
+}
+
+.marquee1:after{
+content: "let's create something interesting   let's create something interesting    let's create something interesting    let's create something interesting    ";
+}
+
+@keyframes marquee1{
+0% {
+    transform: translateX(0)
+}
+100% {
+    transform: translateX(-50%)
+}
+}
+
+.thirtieth_first {
+  position: relative;
+  z-index: 1;
+  margin-top: -30px;
+}
